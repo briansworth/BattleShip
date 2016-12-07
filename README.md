@@ -24,6 +24,7 @@ Upon victory/loss the ship layout will be revealed.
 Empty ' ' values indicate shots you have missed, 'x' values indicate hits, and '#' indicate open locations.
 You cannot shoot in the same place twice.
 
+(this will look terrible unless you view it in RAW format on GitHub)
 There is colour but here's a representation of what it looks like:
 
 j7 HIT!
