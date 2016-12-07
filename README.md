@@ -4,7 +4,7 @@ The battleship.cs file can be used to create an executable file in Windows to la
 
 Create the exe file:
 You should be able to create a working .exe file via the following command (assuming you have the same .NET FRAMEWORK version installed):
-cd <Directory with battleship.cs>
+cd #Directory with battleship.cs#
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /t:exe battleship.cs
 
 You may need to launch the newly created exe file from File Explorer (not from the console).
