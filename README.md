@@ -24,9 +24,8 @@ Upon victory/loss the ship layout will be revealed.
 Empty ' ' values indicate shots you have missed, 'x' values indicate hits, and '#' indicate open locations.
 You cannot shoot in the same place twice.
 
-(this will look terrible unless you view it in RAW format on GitHub)
 There is colour but here's a representation of what it looks like:
-
+```
 j7 HIT!
 You sunk the Submarine!
    0  1  2  3  4  5  6  7  8  9
@@ -42,9 +41,10 @@ I        #  #  #  #  #  #  #  #
 J  #  #     #  #  #  #  x  x  x
 Rockets left: 30
 Enter in the coordinates for your shot:
-
+```
 
 Victory screen
+```
   ----------------------------
  | 01011001 01001111 01010101 |
  | 01010111 01001111 01001110 |
@@ -64,12 +64,13 @@ J                       S  S  S
 CONGRATULATIONS!
 You won with 37 Rockets
 Press Enter to exit to menu
+```
 
 The victory screen will show you only the ship locations and clear out the rest of the screen.
 'P' is Patrol Boat, 'B' is Battleship, 'S' is submarine, 'C' is Carrier, 'D' is Destroyer.
 
 Game Over screen
-
+```
 GAME OVER
 Better luck next time.
    0  1  2  3  4  5  6  7  8  9
@@ -84,7 +85,7 @@ H  #  #  #  #  #     #     #  #
 I  #     #  #  #  #  #  #     #
 J  #  #  x  x  x  x  x     #  #
 Press Enter to exit to menu
-
+```
 The Game Over screen will keep all your shots visible (including hits as "x"'s) and reveal the remaining 'hitable' locations.
 
 There will surely be bugs so let me know what you find.
