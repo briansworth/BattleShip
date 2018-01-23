@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using BattleShip.MainComponents.GameBoardLogic.BaseBattleOperations;
+using System;
 using System.Linq;
-using System.Text;
 
 namespace BattleShip
 {
@@ -27,7 +26,7 @@ namespace BattleShip
 
         public bool IsGameOver()
         {
-            return Board.BackToMenu == 1 || Board.Rockets <= 0 || AllBoatsSunk(Board);
+            return GameBoardUtilis.BackToMenu == 1 || Board.Rockets <= 0 || AllBoatsSunk(Board);
         }
 
         public void GameOver()

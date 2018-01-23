@@ -1,6 +1,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BattleShip;
+using BattleShip.MainComponents.GameBoardLogic.BaseBattleOperations;
 
 namespace BattleShipTests
 {
@@ -11,11 +12,11 @@ namespace BattleShipTests
         public void IsGameOverTest()
         {
             var game = new Game();
-            game.Board.BackToMenu = 1;
+            GameBoardUtilis.BackToMenu = 1;
 
             Assert.IsTrue(game.IsGameOver());
 
-            game.Board.BackToMenu = 0;
+            GameBoardUtilis.BackToMenu = 0;
             game.Board.Rockets = 0;
 
             Assert.IsTrue(game.IsGameOver());

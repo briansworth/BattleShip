@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BattleShip.MainComponents.GameBoardLogic.BaseBattleOperations;
+using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
@@ -24,7 +25,7 @@ namespace BattleShip
                     Grid.WriteGrid(game.Board.PlayerLayer);
                     game.Board.Shoot();
                 }
-                if (game.Board.BackToMenu == 0)
+                if (GameBoardUtilis.BackToMenu == 0)
                 {
                     game.GameOver();
                     Console.WriteLine("\nPress Enter to exit to menu");

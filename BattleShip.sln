@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BattleShip", "BattleShip\BattleShip.csproj", "{B417E551-088D-4564-8C12-D489E9DCC9BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShip", "BattleShip\BattleShip.csproj", "{B43CBD6A-22E7-4E21-BC13-4F134BCC4931}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShipTests", "BattleShipTests\BattleShipTests.csproj", "{073D1E04-668B-464B-BB5C-FEC1B65DE8F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShipTests", "BattleShipTests\BattleShipTests.csproj", "{4997AEEA-E787-4D1B-ABF1-89119BD98FDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B417E551-088D-4564-8C12-D489E9DCC9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B417E551-088D-4564-8C12-D489E9DCC9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B417E551-088D-4564-8C12-D489E9DCC9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B417E551-088D-4564-8C12-D489E9DCC9BB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{073D1E04-668B-464B-BB5C-FEC1B65DE8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{073D1E04-668B-464B-BB5C-FEC1B65DE8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{073D1E04-668B-464B-BB5C-FEC1B65DE8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{073D1E04-668B-464B-BB5C-FEC1B65DE8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43CBD6A-22E7-4E21-BC13-4F134BCC4931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43CBD6A-22E7-4E21-BC13-4F134BCC4931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43CBD6A-22E7-4E21-BC13-4F134BCC4931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43CBD6A-22E7-4E21-BC13-4F134BCC4931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4997AEEA-E787-4D1B-ABF1-89119BD98FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4997AEEA-E787-4D1B-ABF1-89119BD98FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4997AEEA-E787-4D1B-ABF1-89119BD98FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4997AEEA-E787-4D1B-ABF1-89119BD98FDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
