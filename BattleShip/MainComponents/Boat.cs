@@ -47,6 +47,7 @@ namespace BattleShip
             boatList.Add(new Boat(3, "Destroyer", 'D'));
             return boatList;
         }
+
         public static void PlaceBoats(List<Boat> boats, Grid boatGrid)
         {
             foreach (Boat boat in boats)
@@ -54,6 +55,7 @@ namespace BattleShip
                 boat.PlaceBoat(boatGrid);
             }
         }
+
         private static int[] GetBoatSeed(char[,] Grid)
         {
             int height = Grid.GetLength(0);

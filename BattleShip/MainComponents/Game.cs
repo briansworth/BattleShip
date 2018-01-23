@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace BattleShip
@@ -26,19 +27,7 @@ namespace BattleShip
 
         public bool IsGameOver()
         {
-            if (Board.BackToMenu == 1)
-            {
-                return true;
-            }
-            if (Board.Rockets <= 0)
-            {
-                return true;
-            }
-            if (AllBoatsSunk(Board))
-            {
-                return true;
-            }
-            return false;
+            return Board.BackToMenu == 1 || Board.Rockets <= 0 || AllBoatsSunk(Board);
         }
 
         public void GameOver()
@@ -108,16 +97,9 @@ namespace BattleShip
             return diff;
         }
 
-        private bool AllBoatsSunk(Gameboard board)
+        public bool AllBoatsSunk(Gameboard board)
         {
-            foreach (Boat boat in board.BoatLayer.Boats)
-            {
-                if (boat.Sunk != true)
-                {
-                    return false;
-                }
-            }
-            return true;
+            return board.BoatLayer.Boats.All(b => b.Sunk);
         }
 
         private int SetRocketValue(int difficulty)
